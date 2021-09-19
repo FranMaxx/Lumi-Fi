@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif;  */
+}
+
+nav {
+    position: sticky; 
+    top: 0;
+    overflow:hidden;
+    background: white;
+    margin-bottom: -100px; /* REVISAR */
+}
+
+section {
+    margin-top: -250px;
+}
+
+section #contacto {
+    margin-top: 125px
+}
+
+nav .b-example-divider {
+    margin-bottom: -27.5px;
+}
+
+.slider {
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: linear;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none
+}
+
+.slider img {
+    width: 100%
+}
+
+#btn-1 {
+    transform: rotate(-90deg)
+}
+
+#btn-2 {
+    transform: rotate(90deg)
+}
+
+@keyframes cambio {
+    0% {
+        margin-left: 0;
+    }
+    20% {
+        margin-left: 0;
+    }
+
+    25% {
+        margin-left: -100%;
+    }
+    45% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+    70% {
+        margin-left: -200%;
+    }
+
+    75% {
+        margin-left: -300%;
+    }
+    100% {
+        margin-left: -300%;
+    }
+}
+
+#navbar-logo {
+    width: 20%;
+    margin: -60px 0;
+}
+
+#footer-logo {
+    width: 40%;
+    margin: -35px 0;
+}
+
+/* 
+#roboteam-link:link a:visited {
+    color: white;
+} */
