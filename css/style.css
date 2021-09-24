@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Roboto', sans-serif;  */
 }
 
 nav {
@@ -10,15 +9,14 @@ nav {
     top: 0;
     overflow:hidden;
     background: white;
-    margin-bottom: -100px; /* REVISAR */
 }
 
-section {
-    margin-top: -250px;
+section  {
+    margin-top: -150px
 }
 
-section #contacto {
-    margin-top: 125px
+#section1 {
+    margin-top: -0px
 }
 
 nav .b-example-divider {
