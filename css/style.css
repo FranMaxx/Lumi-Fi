@@ -9,14 +9,11 @@ nav {
     top: 0;
     overflow:hidden;
     background: white;
+    margin-bottom: -75px;
 }
 
 section  {
     margin-top: -150px
-}
-
-#section1 {
-    margin-top: -0px
 }
 
 nav .b-example-divider {
