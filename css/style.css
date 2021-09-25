@@ -95,10 +95,11 @@ nav .b-example-divider {
     .slider {
         display: none;
     }    
-    source {
-        height: 240px;
-        width: 360px;
+    video {
+        height: 50px;
+        width: 50px;
         display: block;
         margin: 0 auto;
     }
 }
+
