@@ -12,7 +12,6 @@
         
         <!-- Estilos -->
         <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="../css/headers.css">
         <link rel="icon" href="../svg/icon.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
@@ -90,8 +89,8 @@
                         <div class="lead">
                           <p><i><b>Proximamente...</b><i></p>
                         </div>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                          <video width="480" height="360" controls>
+                        <div id="video-box" class="d-grid gap-2 d-md-flex justify-content-md-start">
+                          <video class="lead" width="480" height="360" controls>
                             <source src="../svg/video.mp4" type="video/mp4">
                           </video>
                         </div>
@@ -116,7 +115,7 @@
                           <div class="row text-center">
 
                             <!--Grid column-->
-                            <div class="col-md-6 mb-4">
+                            <div class="col-md-6 mb-1 columnasLogo">
 
                               <h2 class="my-5 h2">Francisco</h2>
 
@@ -177,13 +176,13 @@
         <!-- Footer -->
         <div class="container">
           <footer id="footer" class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <p class="col-md-4 mb-0 text-muted">&copy; 2021 Grupo 12, Roboteam STEM 2</p>
+            <p id="creditos" class="col-md-4 mb-0 text-muted ">&copy; 2021 Grupo 12, Roboteam STEM 2</p>
         
             <div class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
               <img id="footer-logo" src="../svg/logo.png">
             </div>
         
-            <ul class="nav col-md-4 justify-content-end">
+            <ul id="footer-box" class="nav col-md-4 justify-content-end">
               <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">¿Qué es?</a></li>
               <li class="nav-item"><a href="#instrucciones" class="nav-link px-2 text-muted">Instrucciones</a></li>
               <li class="nav-item"><a href="#contacto" class="nav-link px-2 text-muted">Contacto</a></li>
