@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: red;
 }
 
 nav {
@@ -92,14 +91,13 @@ nav .b-example-divider {
     margin: -35px 0;
 }
 
-@media (max-width: 1000px) { 
+
+@media (max-width: 994px) { 
     .slider {
         display: none;
     }
     video {
-        height: 240px;
-        width: 320px;
-        display: block;
-        margin: 0 auto;
+        height: 216px;
+        width: 324px;
     }
 }
