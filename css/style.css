@@ -94,9 +94,11 @@ nav .b-example-divider {
 @media (max-width: 1000px) { 
     .slider {
         display: none;
-    }    
+    }
     video {
-        height: 240px;
-        width: 360px;
+        height: 180px;
+        width: 240px;
+        display: block;
+        margin: 0 auto;
     }
 }
