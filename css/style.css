@@ -88,16 +88,20 @@ nav .b-example-divider {
 
 #footer-logo {
     width: 40%;
-    margin: -35px 0;
 }
 
-
-@media (max-width: 994px) { 
+@media (max-width: 767px) { 
     .slider {
         display: none;
     }
     video {
         height: 216px;
         width: 324px;
+    }
+    #creditos {
+        margin: 10px 0 0 10%;
+    }
+    #footer-box {
+        margin-left: 10%
     }
 }
