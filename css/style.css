@@ -90,6 +90,10 @@ nav .b-example-divider {
     width: 40%;
 }
 
+.rounded-circle {
+    margin-bottom: -25px;
+}
+
 @media (max-width: 767px) { 
     .slider {
         display: none;
