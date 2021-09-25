@@ -7,7 +7,7 @@
 nav {
     position: sticky; 
     top: 0;
-    overflow:hidden;
+    overflow: hidden;
     background: white;
     margin-bottom: -75px;
 }
@@ -91,7 +91,14 @@ nav .b-example-divider {
     margin: -35px 0;
 }
 
-/* 
-#roboteam-link:link a:visited {
-    color: white;
-} */
+@media (max-width: 1000px) { 
+    .slider {
+        display: none;
+    }    
+    source {
+        height: 240px;
+        width: 360px;
+        display: block;
+        margin: 0 auto;
+    }
+}
